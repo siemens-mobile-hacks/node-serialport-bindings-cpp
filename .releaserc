@@ -13,6 +13,8 @@
     [
       "@semantic-release/github",
       {
+        "successComment": false,
+        "failComment": false,
         "assets": [
           {
             "path": "prebuilds-*.tar.gz",
