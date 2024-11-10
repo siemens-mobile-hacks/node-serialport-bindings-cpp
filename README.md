@@ -1,4 +1,4 @@
-# @serialport/bindings-cpp
+# @sie-js/node-serialport-bindings-cpp
 
 [![Backers on Open Collective](https://opencollective.com/serialport/backers/badge.svg)](#backers)
 [![Sponsors on Open Collective](https://opencollective.com/serialport/sponsors/badge.svg)](#sponsors)
@@ -13,14 +13,14 @@ Access serial ports with JavaScript. Linux, OSX and Windows. Welcome your roboti
 
 - 📚 [**Guides**](https://serialport.io/docs/)
 - [**API Docs**](https://serialport.io/docs/api-serialport)
-- [`@serialport/bindings-cpp`](https://www.npmjs.com/package/@serialport/bindings-cpp)
+- [`@sie-js/node-serialport-bindings-cpp`](https://www.npmjs.com/package/@sie-js/node-serialport-bindings-cpp)
 - 🐛 [Help and Bugs](https://github.com/serialport/node-serialport/issues/new/choose) All serialport issues are pointed to the main serialport repo.
 
 ### Bindings
 
 The Bindings provide a low level interface to work with your serialport. It is possible to use them alone but it's usually easier to use them with an interface.
 
-- [`@serialport/bindings-cpp`](https://serialport.io/docs/api-bindings-cpp) bindings for Linux, Mac and Windows
+- [`@sie-js/node-serialport-bindings-cpp`](https://serialport.io/docs/api-bindings-cpp) bindings for Linux, Mac and Windows
 - [`@serialport/binding-interface`](https://serialport.io/docs/api-bindings-interface) as an interface to use if you're making your own bindings
 - [`@serialport/binding-mock`](https://serialport.io/docs/api-binding-mock) for a mock binding package for testing
 

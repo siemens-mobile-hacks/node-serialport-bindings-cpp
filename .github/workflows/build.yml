@@ -1,9 +1,6 @@
 name: Build
 on:
-  push:
-    branches:
-      - main
-      - beta
+  workflow_dispatch:
 concurrency:
   group: build-${{ github.ref }}
   cancel-in-progress: false
