@@ -1,4 +1,4 @@
-# @sie-js/node-serialport-bindings-cpp (FORK)
+# @sie-js/node-serialport-bindings-cpp (fork with custom baudrate fix)
 
 [![Backers on Open Collective](https://opencollective.com/serialport/backers/badge.svg)](#backers)
 [![Sponsors on Open Collective](https://opencollective.com/serialport/sponsors/badge.svg)](#sponsors)
