@@ -4,6 +4,11 @@ on:
     branches:
       - fork
       - beta
+
+permissions:
+  id-token: write
+  contents: read
+
 concurrency:
   group: build-${{ github.ref }}
   cancel-in-progress: false
