@@ -24,17 +24,17 @@ jobs:
             args: --arch x64+arm64
 
           - name: win32-x86
-            os: windows-latest
+            os: windows-2022
             node: x86
             command: prebuildify
 
           - name: win32-x64
-            os: windows-latest
+            os: windows-2022
             node: x64
             command: prebuildify
 
           - name: win32-arm64
-            os: windows-latest
+            os: windows-2022
             node: x64
             command: prebuildify
             args: --arch arm64 --tag-armv 8
